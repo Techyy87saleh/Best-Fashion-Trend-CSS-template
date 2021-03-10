@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kavivanar&display=swap" rel="stylesheet">
+    <title>Best Fashion Bloggers Template</title>
+</head>
+<body>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+         }
+        body{
+            background-color:#7158e2;
+            font-family: 'Kavivanar', cursive;
+            overflow-y: hidden;
+            }
+       .first{
+           width:230px;
+           height:290px;
+           border:2px solid white;
+         }
+       .first h1{
+           padding:1.1rem;
+           color:#ffff;
+       }
+       .first p{
+           color:#ffff;
+           padding:0.2rem;
+           line-height:30px;
+           font-size:1rem;
+            text-justify: center;
+            margin-left:1rem;
+       }
+        .second{
+            width:230px;
+           height:290px;
+           border:2px solid white;
+           background:#ffffff;
+
+        }
+
+        .second h1{
+           padding:1.1rem;
+           background:#ffff;
+           color:#7158e2;
+       }
+       .second p{
+           color:#2f3542;
+           padding:0.2rem;
+           line-height:30px;
+           font-size:1rem;
+            text-justify: center;
+            margin-left:1rem;
+       }
+        .third img{
+            border:5px solid white;
+            width:400px;
+            height:330px;
+         }
+        .four{
+            width:230px;
+           height:290px;
+           border:2px solid white;
+           background:#ffff;
+           margin-top:-10px;
+        
+
+        }
+
+        .four h1{
+           padding:1.1rem;
+           color:#7158e2;
+
+        }
+       .four p{
+           color:#2f3542;
+           padding:0.2rem;
+           line-height:30px;
+           font-size:1rem;
+            text-justify: center;
+            margin-left:1rem;
+       }
+       .five{
+            width:230px;
+           height:290px;
+           border:2px solid white;
+           margin-top:-10px;
+
+        }
+
+        .five h1{
+           padding:1.7rem;
+           color:#ffff;
+           text-justify: center;
+    
+
+       }
+       .six img{
+           border:5px solid white;
+           width:400px;
+           height:320px;
+           position:relative;
+           top:-25%;
+           left:45%;
+       }
+       .container{
+           display: flex;
+           width:80%;
+           flex-wrap:wrap;
+           column-gap:15px;
+           position: absolute;
+           top:2%;
+           left:7%;
+           justify-content: center;
+           margin: auto;
+    
+              
+         }
+         .container:hover{
+             opacity:0.6;
+         }
+
+         @media(max-width:767px){
+             body{
+                 overflow:scroll;
+             }
+             .container{
+                  display: grid;
+                  grid-template-columns: 2.7fr;
+                  display: flex;
+                  justify-content: center;
+                  margin:50px auto;
+                  margin-left:20px;
+                  text-align:center;
+                  gap:20px;
+                   padding:2rem;
+               
+             }
+             .third{
+                 order:5;
+                 margin-right:30px;
+              }
+              .third img{
+                  width:300px;
+              }
+             .six{
+                 order:6;
+                  
+                 margin:70px auto;
+                 margin-right:300px;
+                 
+ 
+             }
+             .six img{
+                 width:300px;
+             }
+         }
+    </style>
+
+
+    <div class = "container">
+        <div class = "first">
+            <h1>10 Trends</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem omnis delectus laboriosam earum at ut ipsa quasi illo ad numquam!</p>
+          </div>
+            <div class = "second">
+                <h1>Lifestyle</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor fugiat reiciendis dicta mollitia quaerat consectetur odi !</p>
+            </div>
+            <div class = "third">
+                <img src = "jacket1.jpg" alt = "">
+             </div>
+            <div class = "four">
+                <h1>Beauty</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, doloremque voluptates. Eius est doloribus facilisaaa!</p>
+            </div>
+            <div class = "five">
+                <h1>Best Fashion Bloggers</h1>
+            </div>
+            <div class = "six">
+                <img src = "gym1.jpg" alt="">
+             </div>
+
+</div>
+</body>
+</html>
